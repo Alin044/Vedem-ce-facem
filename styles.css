@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.personal-profile{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.top-bar{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    width: 100%;
+    background: rgb(99,107,47);
+    background: linear-gradient(45deg, rgba(99,107,47,1) 0%, rgba(186,192,149,1) 100%);    
+    position:fixed;
+    border-bottom: solid 1.5px black;
+    z-index: 1000;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    background-color: white;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#center-content{
+    height: 800px;
+    width: 50%;
+    background: rgb(61,65,39);
+    background: linear-gradient(90deg, rgba(61,65,39,1) 0%, rgba(134,136,120,1) 100%); 
+    margin-top: 100px;
+    border-radius: 18px;
+}
+
