@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <title>Vedem-ce-facem</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,9 +20,16 @@
 
                 </div>
                 <div id="rightTopBar">
-                    <img class="icon-img" src="linkedin.png">
-                    <img class="icon-img" src="gitHub.png">
-                    <img class="icon-img" src="telegram.png">
+                    <a href="https://www.linkedin.com/in/alin-platon-a05955298/">
+                        <img class="icon-img" src="linkedin.png">
+                    </a>
+                    <a href="https://github.com/Alin044">
+                        <img class="icon-img" src="gitHub.png">
+                    </a>
+                    <a href="https://t.me/AlinPlaton">
+                        <img class="icon-img" src="telegram.png">
+                    </a>
+                    
                     <img class="icon-img" id="twImg" src="twitter.png">
                     <img class="icon-img" id="instImg" src="instagram.png">
                 </div>
@@ -43,7 +51,7 @@
                     </div>
                     <div id="contributionsContainer">
                         <div style="margin-left: 25px; font-family: Roboto, Arial;">
-                            82 contributions in the last year
+                            164 contributions in the last year
                         </div>
                         <img id="contributionsImg" src="contributions.png">
                     </div>
@@ -104,6 +112,9 @@
                         <div id="projectsName">
                             My Projects
                         </div>
+                        <div class="SudokuGame">
+                            <img class="sudokuGameImg" src="sudokuImg.png">
+                        </div>
                     </div>
                     <div id="competenteContainer">
                         <div id="compDiv">
@@ -125,5 +136,12 @@
         </div>
     </body>
     <script src="script.js">
+    </script>
+     <script>
+        document.addEventListener("wheel", function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        }, { passive: false });
     </script>
 </html>

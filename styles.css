@@ -1,3 +1,9 @@
+html, body {
+    touch-action: none;
+    overflow: hidden;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -189,7 +195,7 @@ body{
 
 #projectsContainer{
     width: 85%;
-    height: 500px;
+    height: 525px;
     background-color: rgba(255, 255, 255, 0.788);
     border-radius: 20px;
     margin-top: 40px;
@@ -258,4 +264,15 @@ body{
     width: 90%;
     margin-left: 40px;
     border-radius: 10px;
+}
+
+.SudokuGame{
+    width: 100%;
+    margin-left: 28px;
+    margin-top: 18px;
+}
+
+.sudokuGameImg{
+    width: 750px;
+    border-radius: 16px;
 }

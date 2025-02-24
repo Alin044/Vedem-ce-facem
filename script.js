@@ -13,3 +13,4 @@ btnLanguage.addEventListener('click', () => {
     studies.style.display = 'none';
 })
 
+    
